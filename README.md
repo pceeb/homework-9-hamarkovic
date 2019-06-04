@@ -45,13 +45,13 @@ FG:
 
 #### 6. Is there a section that indicates the files and directories produced by the program?
 
-PM:
+PM: Yes, there is a section with outputs.
 
 FG:
 
 #### 7. Are the research programs / motivations for the program cited?  Are the dependencies cited?
 
-PM:
+PM: No, I don't see the motivation for the program. There are references.
 
 FG:
 
@@ -61,14 +61,13 @@ FG:
 
 #### 8. Is there a directory that contains all of the program scripts?
 
-PM:
+PM: Yes, there is a directory with scripts.
 
 FG:
 
 #### 9. Do these programs generate a run log?
-PM:
 
-FG:
+N/A
 
 ---
 
@@ -76,19 +75,19 @@ FG:
 
 #### 10. Is there a directory called Vignette and does it include a test set, the commands used to run the program and the expected output databases?
 
-PM:
+PM: Yes, there is a vignette directory and it includes those.
 
 FG:
 
 #### 11. Where you able to run the Vignette using the small test dataset? If not what errors did you get?  If so was it easy to run the dataset?  Where the instructions clear.
 
-PM:
+PM: I didn't try to run it because I don't have Quiime.
 
 FG:
 
 #### 12. Where you able to reproduce the expected output?  If not what was different.
 
-PM:
+PM: N/A
 
 FG:
 
@@ -98,6 +97,6 @@ FG:
 
 #### 13. Give __at least two__ suggestions for ways to improve the GitHub page or the operation of the program.
 
-PM:
+PM: I think it would be good to include the motivation/uses of the program (not just what it does). For the command that starts the master.sh file, I think it would be good to have some of those variables be provided within the program if possible, so the user wouldnt have to copy such a long thing to run it.
 
 FG:
