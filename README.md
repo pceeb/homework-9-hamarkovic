@@ -23,37 +23,37 @@ FG: Yes, the Readme is the first document displayed. There is a title, but not n
 
 PM: The purpose is clear. The motivation is to analyze the phylogeny of bacteria from fish gut extractions.
 
-FG:
+FG: The purpose isn't super clear. You should explain how you are analyzing the data in R, and what you want to output, and what that output is useful for.
 
 #### 3. Is there a program workflow and is it easy to understand?  What -in your own words- is the program workflow?
 
 PM: Yes, there is a program workflow, but it would be easier to understand if it didn't use jargon or if the jargon was explained. It seems like the program removes low quality sequence results, and then creates phylogenies from the remaining sequencing results. I don;t know what an emperor plot is.
 
-FG:
+FG: Yes, there is an easy-to-understand workflow for the bash scripts. The filler program fixes the formatting of the input file to work with the next program, and the damfish program makes the two input files into 1 output csv.
 
 #### 4. Are the dependencies indicated in the workflow?  If there are Hoffman2 specific requirements are they indicated?
 
 PM: Yes, the dependencies are listed. Yes, Hoffman2 requirements are indicated. 
 
-FG:
+FG: It says you need Hoffman2 and R to run it, but I think it should be made into its own section to be more obvious.
 
 #### 5. Are there instructions for running the program?  Do the instructions make sense?  What would you do to improve the instructions?
 
 PM: Yes, there are instructions and they make sense. I think the instructions are good, and the commands are provided. 
 
-FG:
+FG: Yes, there are clear instructions for running the bash parts of the program. The formatting could just be improved so section headings are more obvious.
 
 #### 6. Is there a section that indicates the files and directories produced by the program?
 
 PM: Yes, there is a section with outputs.
 
-FG:
+FG: Outputs are listed, but not in their own section, and they could be described further (just another sentence or two).
 
 #### 7. Are the research programs / motivations for the program cited?  Are the dependencies cited?
 
 PM: No, I don't see the motivation for the program. There are references.
 
-FG:
+FG: No, I don't see the motivation for the program. Dependencies and references are not really cited.
 
 ---
 
