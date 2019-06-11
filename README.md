@@ -83,13 +83,13 @@ FG: Yes, there is a vignette directory and it includes those.
 
 PM: I didn't try to run it because I don't have Quiime.
 
-FG:
+FG: Yes, I was able to run it, and to me it looks like the output was right. It took a long time to install the "phyloseq" package - 15 minutes probably. It was easy to run with the included commands.
 
 #### 12. Where you able to reproduce the expected output?  If not what was different.
 
 PM: N/A
 
-FG:
+FG: Yes, it looked right to me :)
 
 ---
 
@@ -99,4 +99,4 @@ FG:
 
 PM: I think it would be good to include the motivation/uses of the program (not just what it does). For the command that starts the master.sh file, I think it would be good to have some of those variables be provided within the program if possible, so the user wouldnt have to copy such a long thing to run it.
 
-FG: Make sure the formatting isn't messed up after the Hoffman2 package instructions. 
+FG: Make sure the formatting isn't messed up after the Hoffman2 package instructions. Also, you should use some headers (#) in the markdown file so the sections are clearer.
