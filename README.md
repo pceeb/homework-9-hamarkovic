@@ -108,7 +108,7 @@ FG: Yes, I was able to run it, and to me it looks like the output was right. It 
 
 #### 12. Where you able to reproduce the expected output?  If not what was different.
 
-PM: N/A
+PM: No, I wasn't. I got errors.
 
 FG: Yes, it looked right to me :)
 
