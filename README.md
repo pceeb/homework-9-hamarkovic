@@ -81,7 +81,28 @@ FG: Yes, there is a vignette directory and it includes those.
 
 #### 11. Where you able to run the Vignette using the small test dataset? If not what errors did you get?  If so was it easy to run the dataset?  Where the instructions clear.
 
-PM: I didn't try to run it because I don't have Quiime.
+PM: I tried running it, but I got some errors. I'll put them below if it helps. If I needed to install something, it wasn't clear to me from the instructions.
+
+QIIME is caching your current deployment for improved performance. This may take a few moments and should only happen once per deployment.
+Making directory called output-emp-single-end-sequences
+Using sequences.fastq.gz and barcodes.fastq.gz to make emp-single-end-sequences.qza to put in output-emp-single-end-sequences directory
+Usage: qiime tools import [OPTIONS]
+Try "qiime tools import --help" for help.
+
+Error: Invalid value for "--input-path": Path "emp-single-end-sequences/" does not exist.
+Making directory called demultiplex-sequences
+Generating demux.qza file where samples are assigned their proper sequence (goes in demultiplex-sequences directory
+Usage: qiime demux emp-single [OPTIONS]
+Try "qiime demux emp-single --help" for help.
+
+Error: Invalid value for "--i-seqs": File "output-emp-single-end-sequences/emp-single-end-sequences.qza" does not exist.
+Making directory called visuals
+Generating a visual friendly version called demultiplex-sequences
+Usage: qiime demux summarize [OPTIONS]
+Try "qiime demux summarize --help" for help.
+
+
+Error: Invalid value for "--i-data": File "demultiplex-sequences//demux.qza" does not exist.
 
 FG: Yes, I was able to run it, and to me it looks like the output was right. It took a long time to install the "phyloseq" package - 15 minutes probably. It was easy to run with the included commands.
 
